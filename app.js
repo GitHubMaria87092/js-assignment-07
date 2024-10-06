@@ -98,12 +98,65 @@
 
 // question 10
 
-var startOf2015 = new Date(2015, 0, 1);
+// var startOf2015 = new Date(2015, 0, 1);
 
-var today = new Date();
+// var today = new Date();
 
-var timeDifference = today - startOf2015;
+// var timeDifference = today - startOf2015;
 
-var secondElapsed = Math.floor(timeDifference / 1000);
+// var secondElapsed = Math.floor(timeDifference / 1000);
 
-alert(secondElapsed + " " + "Seconds elapsed since the beginning of 2015: ");
+// alert(secondElapsed + " " + "Seconds elapsed since the beginning of 2015: ");
+
+// question 11
+
+// let currentDate = new Date();
+
+// document.write("Current Hours" + " " + currentDate + "<br>");
+
+// currentDate.setHours(currentDate.getHours() + 1);
+// document.write("Update Hours" + " " + currentDate + "<br>");
+
+// question 12
+
+// let currentDate = new Date();
+// document.write("Current Date" + " " + currentDate + "<br>");
+
+// currentDate.setFullYear(currentDate.getFullYear() - 100);
+// document.write("100 years Back, It was" + " " + currentDate + "<br>");
+
+// question 13
+
+// let age = prompt("Enter Your age...");
+
+// let currentYear = new Date().getFullYear();
+
+// let birthYear = currentYear - age;
+
+// document.write("Your Birth Year is" + " " + birthYear);
+
+// question 14
+
+// document.write("<h1>K Electric Bill</h1>");
+
+// let customerName = prompt("Enter Customer Name");
+// document.write("Customer Name" + " " + customerName + "<br>");
+
+// let CurrentMonth = new Date().toLocaleString('default', {month: 'long'});
+// document.write("Month" + " " + CurrentMonth + "<br>");
+
+// let numberOfUnit = parseFloat(prompt("Enter Number O f Unit"));
+// document.write("Number Of Unit" + " " + numberOfUnit + "<br>");
+
+// let chargesPerUnit = parseFloat(prompt("Enter Charges Per Unit"));
+// document.write("Charges Per Unit" + " " + chargesPerUnit + "<br>");
+
+// let latePaymentSurcharge = 200.00;
+
+// let netAmountPayable = (numberOfUnit * chargesPerUnit).toFixed(2);
+// document.write("Net Amount Pay Able (Within Due Date)" + " " + netAmountPayable + "<br>");
+
+// document.write("Late Payment Sur Charge" + " " + latePaymentSurcharge + "<br>");
+
+// let grossAmountPayable = (parseFloat(netAmountPayable) +latePaymentSurcharge).toFixed(2);
+// document.write("Gross Amount Pay Able (After Due Date)" + " " + grossAmountPayable + "<br>");
